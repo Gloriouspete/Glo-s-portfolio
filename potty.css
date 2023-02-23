@@ -1,0 +1,258 @@
+body{
+    background-color: rgb(43, 40, 40);
+    
+}
+.img{
+    position: absolute;
+    left:12%;
+    top:3.5%;
+}
+.line-1{
+    width:160px;
+    height:0px;
+    background-color: transparent;
+    border-style: solid;
+    border-color:rgb(236, 130, 9) transparent transparent transparent;
+    border-width:20px 20px 20px 20px;
+    position:absolute;
+    left:0.5%;
+    top:0%;
+}
+.line-2{
+    width:0px;
+    height:160px;
+    background-color: transparent;
+    border-style: solid;
+    border-color:transparent transparent transparent white;
+    border-width:20px 20px 20px 20px;
+    position:absolute;
+    left: 0%;
+    top:1%;
+}
+.line-3{
+    width:160px;
+    height:0px;
+    background-color: transparent;
+    border-style: solid;
+    border-color:transparent transparent rgb(236, 130, 9) transparent;
+    border-width:20px 20px 20px 20px;
+    position:absolute;
+    left: 85%;
+    top:93%;
+
+}
+.line-4{
+    width:0px;
+    height:160px;
+    background-color: transparent;
+    border-style: solid;
+    border-color:transparent white transparent transparent;
+    border-width:20px 20px 20px 20px;
+    position:absolute;
+    left: 97%;
+    top:65%;
+}
+.block{
+    width:600px;
+    height:38vh;
+    max-width:2500vh;
+    max-height: 130vh;
+    background-color: transparent;
+    position:absolute;
+    left:15%;
+    top:50%;
+    display:flex;
+    animation-name: mover;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+.header{
+    font-size: 400%;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color:rgb(218, 208, 152);
+    font-feature-settings: "abvf";
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    position:absolute;
+    left:8%;
+    top:20%;
+}
+#line{
+    height: 50%;
+    width:1px;
+    position: absolute;
+    background-color: gold;
+    background-image: radial-gradient(black,gold);
+}
+.talk{
+    position:absolute;
+    color:darkgray;
+    left:5%;
+}
+#pcap{
+    position:absolute;
+    left:70%;
+    top:10%;
+    color: rgb(218, 208, 152);
+    font-size: 5vh;
+}
+.coverr{
+    position:absolute;
+    left:68%;
+    top:25%;
+    background-color: rgb(209, 193, 101);
+    width:90px;
+    height:90px;
+    border-radius: 10%;
+}
+.boxx{
+    position:absolute;
+    left:68.5%;
+    top:25.5%;
+    background-color:rgb(43, 40, 40);
+    width:170px;
+    height:190px;
+    border-radius: 5%;
+    color:gold;
+    overflow: auto;
+}
+.exam{
+    height: 1px;
+    width:110px;
+    background-color: gold;
+}
+@keyframes move{
+    0%{
+        position: absolute;
+        left:8%;
+        top:-40%;
+    }
+    
+    70%{
+        position: absolute;
+        left:8%;
+        top:20%;
+    }
+    85%{
+        position: absolute;
+        left:8%;
+        top:0%;
+    }
+    100%{
+        position: absolute;
+        left:8%;
+        top:20%;
+    }
+}
+@keyframes mover{
+    0%{
+        position: absolute;
+        left:-50%;
+    }
+    100%{
+        position: absolute;
+        left:15%;
+    }
+}
+
+.brock{
+    width:131vh;
+    height:78.5vh;
+    max-width:2500vh;
+    max-height: 1300vh;
+    background-color: transparent;
+    position:absolute;
+    left:13%;
+    top:5%;
+    
+}
+.linkhub{
+    width:23vh;
+    height:35px;
+    max-width:2500vh;
+    max-height: 130vh;
+    background-color: transparent;
+    position:absolute;
+    left:70%;
+    top:2%;
+    font-size: 2em;
+    display: flex;
+    
+    
+}
+a{ cursor: default; color: rgb(194, 181, 109); 
+    text-decoration:none; }
+    @media  screen and(max-width:320px) {
+        .header{
+            font-size:200%;
+        }
+            .block{
+                top:39%;
+                width: 250px;
+            }
+            .line-3{
+         left:64.5%;
+            }
+            .line-4{
+                left:92%;
+            }
+            #line{
+                height:100%;
+            }
+            .talk{
+                left:10%;
+            }
+    }
+
+@media screen and (max-width:600px) {
+    .header{
+        font-size:200%;
+    }
+        .block{
+            top:39%;
+            width: 250px;
+        }
+        .line-3{
+            left:auto;
+        }
+        #line{
+            height:100%;
+        }
+        .talk{
+            left:10%;
+        }
+}
+
+@media screen and (max-width:405px) {
+    .header{
+        font-size:200%;
+    }
+        .block{
+            top:55%;
+            width: 250px;
+            
+            overflow: auto;
+        }
+        .talk{
+            font-size: 25px;
+        }
+        .line-3{
+     left:64.5%;
+     top:115%;
+        }
+        .line-4{
+            left:109%;
+            top:95%;
+        }
+        #line{
+            height:100%;
+        }
+        .talk{
+            left:10%;
+        }
+        .brock{
+            width:device-width;
+            height:700px;
+        }
+}
