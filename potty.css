@@ -86,7 +86,7 @@ body{
     top:20%;
 }
 #line{
-    height: 30vh;
+    height: 20vh;
     width:1px;
     position: absolute;
     background-color: gold;
