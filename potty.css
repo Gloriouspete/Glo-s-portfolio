@@ -185,7 +185,7 @@ body{
     max-height: 130vh;
     background-color: transparent;
     position:absolute;
-    left:70%;
+    left:60%;
     top:2%;
     font-size: 2em;
     display: flex;
@@ -224,7 +224,7 @@ a{ cursor: default; color: rgb(194, 181, 109);
         font-size:200%;
     }
         .block{
-            top:45%;
+            top:40%;
             height: 49vh;
         }
         .talk{
@@ -235,8 +235,10 @@ a{ cursor: default; color: rgb(194, 181, 109);
         }
         .talk{
             left:10%;
+            font-size:40%;
         }
         #pcap{
             right:10%;
+            font-size:120%;
         }
 }
