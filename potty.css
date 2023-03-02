@@ -84,6 +84,7 @@ body{
     position:absolute;
     left:8%;
     top:20%;
+    text-shadow: 2px 2px 8px black;
 }
 #line{
     height: 20vh;
@@ -97,6 +98,7 @@ body{
     color:darkgray;
     left:5%;
     font-size: 2.5vh;
+    text-shadow: 2px 2px 5px black;
 }
 #pcap{
     position:absolute;
@@ -104,6 +106,7 @@ body{
     top:10%;
     color: rgb(218, 208, 152);
     font-size: 5vh;
+    text-shadow: 2px 2px 5px black;
 }
 .coverr{
     position:absolute;
@@ -124,7 +127,8 @@ body{
     border-radius: 5%;
     color:gold;
     overflow: auto;
-    font-size: 70%;
+    font-size: 80%;
+    text-shadow: 2px 2px 5px black;
 }
 .exam{
     height: 1px;
