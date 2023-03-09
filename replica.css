@@ -207,6 +207,7 @@ a{ cursor: default; color: rgb(194, 181, 109);
         display:none;
     }
     .newpage{
+        display:block;
         width:100vw;
         height:auto;
         background-color: transparent;
