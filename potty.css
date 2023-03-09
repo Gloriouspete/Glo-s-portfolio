@@ -84,7 +84,7 @@ body{
     position:absolute;
     left:8%;
     top:20%;
-    text-shadow: 2px 2px 8px black;
+    text-shadow: 2px 2px 5px black;
 }
 #line{
     height: 20vh;
@@ -98,7 +98,7 @@ body{
     color:darkgray;
     left:5%;
     font-size: 2.5vh;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 10px black;
 }
 #pcap{
     position:absolute;
@@ -183,7 +183,7 @@ body{
     
 }
 .linkhub{
-    width:23vh;
+    width:23vw;
     height:35px;
     max-width:2500vh;
     max-height: 130vh;
@@ -200,49 +200,132 @@ a{ cursor: default; color: rgb(194, 181, 109);
     text-decoration:none; }
 
 
-@media scree and (max-width:600px) {
-    .header{
-        font-size:300%;
-        left: 17%;
+@media screen and (max-width:600px) {
+    .web-cover{
+        display:none;
     }
-        .block{
-            top:39%;
-            width: 250px;
-        }
-        #line{
-            height:100%;
-        }
-        .line-3{
-            display: none;
-        }
-        .line-4 {
-            display: none;
-        }
-        .talk{
-            left:10%;
-        }
-}
+    .newpage{
+        width:100vw;
+        height:auto;
+        background-color: transparent;
+    }
+    #nname{
+        font-size: 1.1rem;
+        color:gold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        text-shadow: 4px 4px 4px brown;
+        margin-top: 0;
+        margin-left: 2%;
 
-@media screen and (max-width:414px) {
-    .header{
-        font-size:200%;
     }
-        .block{
-            top:40%;
-            height: 49vh;
-        }
-        .talk{
-            font-size: 85%;
-        }
-        #line{
-            height:80%;
-        }
-        .talk{
-            left:10%;
-            font-size:70%;
-        }
-        #pcap{
-            right:10%;
-            font-size:120%;
-        }
+    .nheader{
+        display:flex;
+        width:100%;
+        height:4vh;
+        background-color: transparent;
+    }
+    .ncontent{
+        width:100%;
+        height:60vh;
+        background-color: transparent;
+
+    }
+    #ntext{
+        position:absolute;
+        left:10%;
+        top:10%;
+        margin:0 auto;
+        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:3.5rem;
+        color:gold;
+        text-shadow:3px 3px 4px black;
+    }
+    .new-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        width:78vw;
+        height:auto;
+        background-color: transparent;
+        position:absolute;
+        left:6%;
+        top:30%;
+        text-shadow: 3px 3px 3px black;
+        color:darkgray;
+    }
+    #nbutton{
+
+        color: gold;
+        font-size: 1.5rem;
+        text-shadow:3px 3px 4px black;
+        position:absolute;
+        left:14%;
+        top:47%;
+        width:60vw;
+        height:15vw;
+        background-color: darkgray;
+        border-color:black;
+        border-radius: 10px;
+        border-width:2px 2px 0 0;
+    }
+    .nreally{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        width:80vw;
+        height:30px;
+        background-color: transparent;
+        position:absolute;
+        left:6%;
+        top:60%;
+        text-shadow: 3px 3px 3px black;
+        color:darkgray;
+    }
+    #nabout{
+        font-size: 1.1rem;
+        color:gold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        text-shadow: 4px 4px 4px brown;
+        margin-top: 0;
+        position: absolute;
+        right: 19%;
+    }
+    #wide{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        width:80vw;
+        height:30px;
+        background-color: transparent;
+        left:2%;
+        text-shadow: 3px 3px 3px black;
+        color:white;
+    }
+    #widd{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        width:75vw;
+        height:30px;
+        background-color: transparent;
+        position: absolute;
+        top:70%;
+        left:2%;
+        text-shadow: 3px 3px 3px black;
+        color:white;
+    }
+    .personally{
+        position: absolute;
+        top:60%;
+        left:2%;
+        color:white;
+        text-shadow: 3px 2px 3px gold;
+    }
+    .professionally{
+        color:rgb(243, 242, 239);
+        text-shadow: 3px 2px 3px rgb(221, 224, 19);
+    }
+    .boutme{
+        display: none;
+        width:100vw;
+        height:auto;
+    }
 }
