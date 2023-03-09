@@ -73,6 +73,8 @@ body{
     animation-duration: 4s;
     animation-iteration-count: 1;
 }
+.newpage{
+    display:none;}
 .header{
     font-size: 400%;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif ;
