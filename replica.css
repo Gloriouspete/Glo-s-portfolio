@@ -73,8 +73,6 @@ body{
     animation-duration: 4s;
     animation-iteration-count: 1;
 }
-.newpage{
-    display:none;}
 .header{
     font-size: 400%;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif ;
@@ -200,6 +198,9 @@ body{
 }
 a{ cursor: default; color: rgb(194, 181, 109); 
     text-decoration:none; }
+    .newpage{
+        display: none;
+    }
 
 
 @media screen and (max-width:600px) {
@@ -213,9 +214,9 @@ a{ cursor: default; color: rgb(194, 181, 109);
         background-color: transparent;
     }
     #nname{
-        font-size: 1.1rem;
+        font-size: 5vw;
         color:gold;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: 500;
         text-shadow: 4px 4px 4px brown;
         margin-top: 0;
@@ -239,19 +240,19 @@ a{ cursor: default; color: rgb(194, 181, 109);
         left:10%;
         top:10%;
         margin:0 auto;
-        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size:3.5rem;
+        font-family:  Georgia, Times, 'Times New Roman', serif;
+        font-size:12vw;
         color:gold;
         text-shadow:3px 3px 4px black;
     }
     .new-text{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
-        width:78vw;
+        font-size: 5vw;
+        width:82vw;
         height:auto;
         background-color: transparent;
         position:absolute;
-        left:6%;
+        left:8%;
         top:30%;
         text-shadow: 3px 3px 3px black;
         color:darkgray;
@@ -259,7 +260,7 @@ a{ cursor: default; color: rgb(194, 181, 109);
     #nbutton{
 
         color: gold;
-        font-size: 1.5rem;
+        font-size: 5vw;
         text-shadow:3px 3px 4px black;
         position:absolute;
         left:14%;
@@ -284,51 +285,60 @@ a{ cursor: default; color: rgb(194, 181, 109);
         color:darkgray;
     }
     #nabout{
-        font-size: 1.1rem;
+        font-size: 5vw;
         color:gold;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 500;
         text-shadow: 4px 4px 4px brown;
         margin-top: 0;
         position: absolute;
-        right: 19%;
+        right: 10%;
     }
     #wide{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1rem;
-        width:80vw;
-        height:30px;
+        font-size: 4vw;
+        width:90vw;
+        height:110vw;
         background-color: transparent;
         left:2%;
         text-shadow: 3px 3px 3px black;
         color:white;
+        line-height: 1.5;
     }
     #widd{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1rem;
-        width:75vw;
+        width:90vw;
         height:30px;
         background-color: transparent;
         position: absolute;
-        top:70%;
+        top:85%;
         left:2%;
         text-shadow: 3px 3px 3px black;
         color:white;
+        line-height: 1.5;
     }
     .personally{
         position: absolute;
-        top:60%;
+        top:75%;
         left:2%;
         color:white;
-        text-shadow: 3px 2px 3px gold;
+        text-shadow: 3px 2px 3px rgb(20, 20, 20);
     }
     .professionally{
         color:rgb(243, 242, 239);
-        text-shadow: 3px 2px 3px rgb(221, 224, 19);
+        text-shadow: 3px 2px 3px rgb(17, 17, 16);
     }
     .boutme{
         display: none;
         width:100vw;
         height:auto;
+    }
+    #footer{
+        position: absolute;
+        bottom: 0;
+        font-size: 4vw;
+        font-style: italic;
+        color: white;
     }
 }
