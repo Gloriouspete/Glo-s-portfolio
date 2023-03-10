@@ -11,7 +11,7 @@ about.addEventListener("click",() =>{
     about.classList.add("agg");
     about.textContent="X";
     var mafor = document.querySelector('.agg');
-mafor.addEventListener("click", () =>{
+about.addEventListener("click", () =>{
     boutme.style.display="none";
     content.style.display="block";
     about.textContent="About Me";
